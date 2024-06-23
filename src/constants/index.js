@@ -1,208 +1,223 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+	people01,
+	people02,
+	people03,
+	facebook,
+	instagram,
+	linkedin,
+	twitter,
+	airbnb,
+	binance,
+	coinbase,
+	dropbox,
+	send,
+	shield,
+	star
+} from "../assets";
 
 export const navLinks = [
-  {
-    id: "home",
-    title: "Home",
-  },
-  {
-    id: "features",
-    title: "Features",
-  },
-  {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "Work",
-    title: "Services",
-  },{
-    id: "clients",
-    title: "Clients",
-  },
-  {
-    id: "Projects",
-    title: "Projects",
-  },
-  {
-    id: "Contact",
-    title: "Contact",
-  },
+	{
+		id: "home",
+		title: "Home",
+	},
+	{
+		id: "features",
+		title: "Features",
+	},
+	{
+		id: "product",
+		title: "Product",
+	},
+	{
+		id: "Services",
+		title: "Services",
+	}, {
+		id: "clients",
+		title: "Clients",
+	},
+	{
+		id: "Projects",
+		title: "Projects",
+	},
+	{
+		id: "Contact",
+		title: "Contact",
+	},
 ];
 
 export const features = [
-  {
-    id: "feature-1",
-    icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
-  },
-  {
-    id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
-  },
-  {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
+	{
+		id: "feature-1",
+		icon: star,
+		title: "Commitment to Innovation",
+		content:
+			"Leveraging the latest technologies and embracing continuous learning to deliver state-of-the-art solutions that keep clients ahead in the competitive tech landscape.",
+	},
+	{
+		id: "feature-2",
+		icon: shield,
+		title: "100% Secured",
+		content:
+			"We take proactive steps make sure your information and databases are secure.",
+	},
+	{
+		id: "feature-3",
+		icon: send,
+		title: "Client-Centric Focus",
+		content:
+			"Prioritizing client satisfaction through personalized service, close collaboration, and dedicated support, ensuring solutions that align perfectly with business goals.",
+	},
 ];
 
 export const feedback = [
-  {
-    id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
+	{
+		id: "feedback-1",
+		content:
+			"The team delivered a top-notch website and provided outstanding support throughout the project. Their attention to detail and commitment to our needs were remarkable.",
+		name: "Sarah T.",
+		title: "Business Owner",
+		img: people01,
+	},
+	{
+		id: "feedback-2",
+		content:
+			"We rely on their expertise for all our tech needs, from system architecture to database management. Their solutions are innovative, reliable, and have significantly enhanced our business operations.",
+		name: "John M.",
+		title: "Operations Manager",
+		img: people02,
+	},
+	{
+		id: "feedback-3",
+		content:
+			"Their client-centric approach and dedication to delivering customized solutions made a huge difference for us. They truly understand our business and provide invaluable support.",
+		name: "Emma L.",
+		title: "Marketing Director",
+		img: people03,
+	},
 ];
 
 export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
+	{
+		id: "stats-1",
+		title: "User Active",
+		value: "3800+",
+	},
+	{
+		id: "stats-2",
+		title: "Trusted by Company",
+		value: "230+",
+	},
+	{
+		id: "stats-3",
+		title: "Transaction",
+		value: "$230M+",
+	},
 ];
 
 export const footerLinks = [
-  {
-    title: "Useful Links",
-    links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
+	{
+		title: "Contact details",
+		links: [
+			{
+				name: "8133895591",
+				link: "https://www.clearsolutions.com/content/",
+			},
+			{
+				name: "8761852881",
+				link: "https://www.clearsolutions.com/how-it-works/",
+			},
+			{
+				name: "9612701759",
+				link: "https://www.clearsolutions.com/create/",
+			},
+			{
+				name: " sandeepsonowal897@gmail.com",
+				link: "https://www.clearsolutions.com/explore/",
+			},
+			{
+				name: "nayanjyotisharma675@gmail.com",
+				link: "https://www.clearsolutions.com/terms-and-services/",
+			},
+		],
+	},
+	{
+		title: "Community",
+		links: [
+			{
+				name: "Help Center",
+				link: "https://www.clearsolutions.com/help-center/",
+			},
+			{
+				name: "Partners",
+				link: "https://www.clearsolutions.com/partners/",
+			},
+			{
+				name: "Suggestions",
+				link: "https://www.clearsolutions.com/suggestions/",
+			},
+			{
+				name: "Blog",
+				link: "https://www.clearsolutions.com/blog/",
+			},
+			{
+				name: "Newsletters",
+				link: "https://www.clearsolutions.com/newsletters/",
+			},
+		],
+	},
+	{
+		title: "Partner",
+		links: [
+			{
+				name: "Our Partner",
+				link: "https://www.clearsolutions.com/our-partner/",
+			},
+			{
+				name: "Become a Partner",
+				link: "https://www.clearsolutions.com/become-a-partner/",
+			},
+		],
+	},
 ];
 
 export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
-  },
+	{
+		id: "social-media-1",
+		icon: instagram,
+		link: "https://www.instagram.com/clear.solutions_?igsh=MW0wMzN5eWU1OXRuYg==",
+	},
+	{
+		id: "social-media-2",
+		icon: facebook,
+		link: "https://www.facebook.com/",
+	},
+	{
+		id: "social-media-3",
+		icon: twitter,
+		link: "https://www.twitter.com/",
+	},
+	{
+		id: "social-media-4",
+		icon: linkedin,
+		link: "https://www.linkedin.com/",
+	},
 ];
 
 export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
+	{
+		id: "client-1",
+		logo: airbnb,
+	},
+	{
+		id: "client-2",
+		logo: binance,
+	},
+	{
+		id: "client-3",
+		logo: coinbase,
+	},
+	{
+		id: "client-4",
+		logo: dropbox,
+	},
 ];

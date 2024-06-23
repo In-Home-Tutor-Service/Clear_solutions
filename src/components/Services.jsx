@@ -58,41 +58,40 @@ const Cards = () => {
 		{
 			img: back3,
 			title: "Web Design",
-			text: "We build the website and apps that our client wants from us by prioritizing our clients’ safety and security. We promote safe and secure internet browsing. For customer service, our team is always ready to deal with clients and fulfill their needs with dedication in the given period."
+			text: "Our web design services focus on creating visually stunning and user-friendly websites that reflect your brand’s identity. We blend aesthetics with functionality to build responsive and interactive websites that provide seamless navigation and engage your audience effectively. Whether you need a simple landing page or a complex e-commerce platform, we deliver custom designs tailored to your business needs."
 		},
 		{
-			img: back3,
+			img: back2,
 			title: "Database Management",
-			text: "We build the website and apps that our client wants from us by prioritizing our clients’ safety and security. We promote safe and secure internet browsing. For customer service, our team is always ready to deal with clients and fulfill their needs with dedication in the given period."
+			text: "We offer robust database management solutions that secure and streamline your data processes. From setting up and maintaining databases to optimizing performance and ensuring data integrity, our services cover all aspects of database management. We help you handle large volumes of data efficiently, providing quick access and reliable storage solutions to support your business operations and decision-making."
 		},
 		{
 			img: back3,
 			title: "Quality Assurance",
-			text: "We build the website and apps that our client wants from us by prioritizing our clients’ safety and security. We promote safe and secure internet browsing. For customer service, our team is always ready to deal with clients and fulfill their needs with dedication in the given period."
+			text: " Our quality assurance services ensure that your software applications are reliable, efficient, and free of defects. We conduct comprehensive testing, including functional, performance, and security testing, to identify and fix issues before deployment. Our meticulous approach ensures that your products meet the highest standards and provide a smooth user experience."
 		},
 		{
-			img: back3,
+			img: back1,
 			title: "Software Integration",
-			text: "We build the website and apps that our client wants from us by prioritizing our clients’ safety and security. We promote safe and secure internet browsing. For customer service, our team is always ready to deal with clients and fulfill their needs with dedication in the given period."
+			text: "We specialize in integrating various software applications and systems to work together seamlessly. Our integration services connect disparate systems, enabling smooth data flow and communication across your IT environment. This integration enhances operational efficiency, reduces redundancy, and ensures that all components of your business infrastructure work in harmony."
 		},
 		{
 			img: back3,
 			title: "Data Gathering",
-			text: "We build the website and apps that our client wants from us by prioritizing our clients’ safety and security. We promote safe and secure internet browsing. For customer service, our team is always ready to deal with clients and fulfill their needs with dedication in the given period."
+			text: "We provide data gathering services that help you collect and analyze valuable information from various sources. Whether it's user behavior, market trends, or operational metrics, we employ advanced techniques to gather accurate and relevant data. This data-driven approach allows you to make informed decisions and stay ahead of the competition."
 		},
 		{
-			img: back3,
+			img: back2,
 			title: "Maintenance & Support",
-			text: "We build the website and apps that our client wants from us by prioritizing our clients’ safety and security. We promote safe and secure internet browsing. For customer service, our team is always ready to deal with clients and fulfill their needs with dedication in the given period."
+			text: "Our maintenance and support services are designed to keep your IT systems running smoothly and efficiently. We provide ongoing monitoring, updates, and troubleshooting to prevent issues and minimize downtime. Our dedicated support team is always ready to assist, ensuring that your technology infrastructure remains robust and responsive to your business needs."
 		}
 	];
 
 	return (
-		<div className="col-md-11 mx-auto">
+		<div id="Services" className="col-md-11 mx-auto">
 			<div className="container-fluid padding">
 				<h2 className={styles.heading3}>
-					Easily control your <br className="sm:block hidden"/> billing &
-					invoicing
+					Our Services <br className="sm:block hidden"/>
 				</h2>
 				<Slider {...settings}>
 					{slides.map((slide, index) => (
