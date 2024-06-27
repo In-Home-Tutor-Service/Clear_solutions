@@ -73,7 +73,7 @@ export const feedback = [
 	{
 		id: "feedback-1",
 		content:
-			"The team delivered a top-notch website and provided outstanding support throughout the project. Their attention to detail and commitment to our needs were remarkable.",
+			"The team not only delivered a top-notch website but also they provided outstanding support throughout the project. Their attention to detail and commitment to our needs were remarkable.",
 		name: "Sarah T.",
 		title: "Business Owner",
 		img: people01,

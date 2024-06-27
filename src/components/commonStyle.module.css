@@ -1,0 +1,26 @@
+.serviceImageContainer {
+    height: 200px;
+    overflow: hidden;
+
+}
+
+.workCVVideoContainer {
+    width: 72%;
+}
+
+.workATVideoContainer {
+    width: 32%;
+    margin-bottom: 40px;
+}
+
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .workCVVideoContainer {
+        width: 100%;
+    }
+
+    .workATVideoContainer {
+        width: 100%;
+    }
+}

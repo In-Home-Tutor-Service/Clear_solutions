@@ -6,7 +6,7 @@ const CardDeal = () => (
 	<section className={`${layout.section} mb-8 `}>
 		<div className={layout.sectionInfo}>
 			<h2 className={styles.heading2}>
-				Committed to Long-Term<br className="sm:block hidden"/>Success
+				Committed to Long-Term <br className="sm:block hidden"/>Success
 			</h2>
 			<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
 				Beyond project completion, we offer comprehensive after-service support to ensure your systems remain

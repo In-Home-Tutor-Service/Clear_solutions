@@ -20,14 +20,16 @@ const Slider = () => {
 			title: "WE PROVIDE YOU",
 			topic: "DATABASE MANAGEMENT",
 			description:
-				"Optimizing data infrastructure for efficiency and reliability, ensuring seamless operations."},
+				"Optimizing data infrastructure for efficiency and reliability, ensuring seamless operations."
+		},
 		{
 			imgSrc: background3,
 			author: "IN CLEAR SOLUTIONS",
 			title: "WE PROVIDE YOU",
 			topic: "SYSTEM ARCHITECTURE",
 			description:
-				"Designing robust and scalable IT architectures to empower your digital ecosystem."},
+				"Designing robust and scalable IT architectures to empower your digital ecosystem."
+		},
 		{
 			imgSrc: background4,
 			author: "IN CLEAR SOLUTIONS",
@@ -106,16 +108,21 @@ const Slider = () => {
 							index === currentSlide ? "active" : ""
 						}`}
 					>
-						<img src={item.imgSrc} alt={item.title}/>
+						<img
+							src={item.imgSrc}
+							alt={item.title}
+							style={{opacity: 0.2}}
+						/>
+
 						<div className="content">
 							<div className="author">{item.author}</div>
 							<div className="title">{item.title}</div>
 							<div className="topic">{item.topic}</div>
 							<div className="des">{item.description}</div>
-							<div className="buttons">
+							<div className="buttons text-primary font-poppins font-medium text-[18px] ">
 								<button>SEE MORE</button>
-								{/* <button>SUBSCRIBE</button> */}
 							</div>
+
 						</div>
 					</div>
 				))}

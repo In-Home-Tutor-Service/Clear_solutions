@@ -14,7 +14,7 @@ const Billing = () => (
 
 		<div className={layout.sectionInfo}>
 			<h2 className={styles.heading2}>
-				Easily control and your business <br className="sm:block hidden"/> through our products.
+				Easily control your business <br className="sm:block hidden"/> through our products.
 			</h2>
 			<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
 				Our products offer seamless web solutions, advanced database management, and scalable system
