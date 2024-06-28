@@ -120,7 +120,7 @@ const Slider = () => {
 							<div className="topic">{item.topic}</div>
 							<div className="des">{item.description}</div>
 							<div className="buttons text-primary font-poppins font-medium text-[18px] ">
-								<button>SEE MORE</button>
+								<button><a href={`#Contact`}>SEE MORE</a></button>
 							</div>
 
 						</div>
@@ -137,10 +137,10 @@ const Slider = () => {
 						}`}
 					>
 						<img src={item.imgSrc} alt={item.title}/>
-						<div className="content">
-							<div className="title">{item.title}</div>
-							<div className="description">{item.topic}</div>
-						</div>
+						{/*<div className="content">*/}
+						{/*	<div className="title">{item.title}</div>*/}
+						{/*	<div className="description">{item.topic}</div>*/}
+						{/*</div>*/}
 					</div>
 				))}
 			</div>

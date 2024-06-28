@@ -73,26 +73,26 @@ export const feedback = [
 	{
 		id: "feedback-1",
 		content:
+			"Their client-centric approach and dedication to delivering customized solutions made a huge difference for us. They truly understand our business and provide invaluable support.",
+		name: "Axom Tutors",
+		title: "Axom Tutors CEO",
+		img: people03,
+	},
+	{
+		id: "feedback-2",
+		content:
 			"The team not only delivered a top-notch website but also they provided outstanding support throughout the project. Their attention to detail and commitment to our needs were remarkable.",
 		name: "Sarah T.",
 		title: "Business Owner",
 		img: people01,
 	},
 	{
-		id: "feedback-2",
-		content:
-			"We rely on their expertise for all our tech needs, from system architecture to database management. Their solutions are innovative, reliable, and have significantly enhanced our business operations.",
-		name: "John M.",
-		title: "Operations Manager",
-		img: people02,
-	},
-	{
 		id: "feedback-3",
 		content:
-			"Their client-centric approach and dedication to delivering customized solutions made a huge difference for us. They truly understand our business and provide invaluable support.",
-		name: "Emma L.",
-		title: "Marketing Director",
-		img: people03,
+			"We rely on their expertise for all our tech needs, from system architecture to database management. Their solutions are innovative, reliable, and have significantly enhanced our business operations.",
+		name: "Prashank M.",
+		title: "Operations Manager",
+		img: people02,
 	},
 ];
 
@@ -119,16 +119,8 @@ export const footerLinks = [
 		title: "Contact details",
 		links: [
 			{
-				name: "8133895591",
+				name: "81338955911,    876185288",
 				link: "https://www.clearsolutions.com/content/",
-			},
-			{
-				name: "8761852881",
-				link: "https://www.clearsolutions.com/how-it-works/",
-			},
-			{
-				name: "9612701759",
-				link: "https://www.clearsolutions.com/create/",
 			},
 			{
 				name: " sandeepsonowal897@gmail.com",
@@ -185,16 +177,6 @@ export const socialMedia = [
 		id: "social-media-1",
 		icon: instagram,
 		link: "https://www.instagram.com/clear.solutions_?igsh=MW0wMzN5eWU1OXRuYg==",
-	},
-	{
-		id: "social-media-2",
-		icon: facebook,
-		link: "https://www.facebook.com/",
-	},
-	{
-		id: "social-media-3",
-		icon: twitter,
-		link: "https://www.twitter.com/",
 	},
 	{
 		id: "social-media-4",

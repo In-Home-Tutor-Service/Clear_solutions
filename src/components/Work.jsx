@@ -3,12 +3,13 @@ import video1 from "../assets/videos/cvmaker.mp4";
 import video2 from "../assets/videos/axomtutor.mp4";
 import styles from "../style.js";
 import commonStyles from "./commonStyle.module.css";
+import {logo, ATlogo} from "../assets/index.js";
 
 const Works = () => {
 	return (
 		<div id="Projects" className="col-md-11 mx-auto">
 			<h2 className={`${styles.heading3} `}>
-				Our Products <br className="sm:block hidden"/>
+				Our Recent Products <br className="sm:block hidden"/>
 			</h2>
 			<div className="container-fluid padding">
 				<div className="row padding d-flex justify-content-around">
@@ -54,7 +55,14 @@ const Works = () => {
 							<div
 								className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
 								<div className="flex-1 flex flex-col">
-									<h4 className={styles.heading2}>AXOM TUTORS</h4>
+									<div className="flex">
+										<h4 className={styles.heading2}>AXOM TUTORS</h4>
+										<img
+											src={ATlogo}
+											alt="hoobank"
+											className="w-[266px] h-[72px] object-contain"
+										/>
+									</div>
 									<p className={`${styles.paragraph} mt-5`}>
 										Axom Tutors is a mobile application tailored
 										to connect students with tutors seamlessly.
