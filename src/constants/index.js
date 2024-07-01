@@ -119,16 +119,12 @@ export const footerLinks = [
 		title: "Contact details",
 		links: [
 			{
-				name: "81338955911,    876185288",
+				name: "81338955911,    8761852881",
 				link: "https://www.clearsolutions.com/content/",
 			},
 			{
-				name: " sandeepsonowal897@gmail.com",
+				name: "clear.solutions07@gmail.com",
 				link: "https://www.clearsolutions.com/explore/",
-			},
-			{
-				name: "nayanjyotisharma675@gmail.com",
-				link: "https://www.clearsolutions.com/terms-and-services/",
 			},
 		],
 	},

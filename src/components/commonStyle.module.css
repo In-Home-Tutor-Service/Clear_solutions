@@ -13,6 +13,27 @@
     margin-bottom: 40px;
 }
 
+.imageLogo {
+    position: absolute;
+    min-width: 100px;
+    min-height: 80px;
+    max-height: 80px;
+    max-width: 240px;
+}
+
+.footerLogo {
+    min-width: 180px;
+    min-height: 180px;
+    max-height: 180px;
+    max-width: 180px;
+}
+.footerLogoContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
 
 /* Media query for mobile devices */
 @media (max-width: 600px) {
