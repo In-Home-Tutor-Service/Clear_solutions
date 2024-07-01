@@ -15,9 +15,9 @@
 
 .imageLogo {
     position: absolute;
-    min-width: 100px;
-    min-height: 80px;
-    max-height: 80px;
+    min-width: 110px;
+    min-height: 100px;
+    max-height: 100px;
     max-width: 240px;
 }
 
@@ -27,7 +27,8 @@
     max-height: 180px;
     max-width: 180px;
 }
-.footerLogoContainer{
+
+.footerLogoContainer {
     display: flex;
     align-items: center;
     flex-direction: column;
