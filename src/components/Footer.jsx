@@ -2,6 +2,7 @@ import styles from "../style";
 import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 import style from "./commonStyle.module.css";
+
 const Footer = () => (
   <section id="Contact" className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>

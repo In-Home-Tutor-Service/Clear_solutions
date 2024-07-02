@@ -19,7 +19,7 @@ const Works = () => {
 							<div
 								className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
 								<div className="flex-1 flex flex-col">
-									<h4 className={styles.heading2}>CV maker</h4>
+									<h4 className={`${styles.heading2} flex justify-center`}>CV maker</h4>
 									<p className={`${styles.paragraph} mt-5`}>
 										CV Maker is a free, user-friendly SaaS
 										product designed for creating CVs (resumes).
@@ -54,9 +54,9 @@ const Works = () => {
 						<div className="card flex flex-col justify-center items-center">
 							<div
 								className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
-								<div className="flex-1 flex flex-col">
+								<div className="flex-1 flex flex-col items-center">
 									<div className="flex">
-										<h4 className={styles.heading2}>AXOM TUTORS</h4>
+										{/* <h4 className={styles.heading2}>AXOM TUTORS</h4> */}
 										<img
 											src={ATlogo}
 											alt="hoobank"
