@@ -37,7 +37,7 @@ const Business = () => (
 
 		<div
 			className={`${layout.sectionImg} flex-col`}
-			style={{textAlign: 'justify'}}
+			
 		>
 			{features.map((feature, index) => (
 				<FeatureCard key={feature.id} {...feature} index={index}/>
